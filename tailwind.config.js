@@ -10,13 +10,13 @@ module.exports = {
             colors: {
                 light: '#ff4da6',
                 darkBG: '#020D12',
-                darkBase: '#0b435e',
-                darkHighlight: '#248d9a',
+                darkBase: '#248d9a',
+                darkHighlight: '#0b435e',
                 button: '#00dbd5',
             },
             fontFamily: {
-                heading: ['Patua One', 'sans-serif'],
-                body: ['Poppins', 'sans-serif'],
+                heading: ['shelby', 'sans-serif'],
+                body: ['mislab-std', 'serif'],
             },
         },
     },

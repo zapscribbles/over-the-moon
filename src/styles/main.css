@@ -39,6 +39,10 @@ h5 {
     @apply text-2xl my-2;
 }
 
+p {
+    @apply my-10 bg-darkBG text-xl;
+}
+
 :focus {
     outline: none !important;
 }
