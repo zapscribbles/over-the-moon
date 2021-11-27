@@ -8,11 +8,11 @@ module.exports = {
     theme: {
         extend: {
             colors: {
-                lightest: '#B9D6F2',
-                light: '#A9CDEF',
-                darkBase: '#061A40',
-                darkHighlight: '#0353A4',
-                button: '#006DAA',
+                light: '#ff4da6',
+                darkBG: '#020D12',
+                darkBase: '#0b435e',
+                darkHighlight: '#248d9a',
+                button: '#00dbd5',
             },
             fontFamily: {
                 heading: ['Patua One', 'sans-serif'],

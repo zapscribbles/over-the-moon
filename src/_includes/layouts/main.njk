@@ -1,13 +1,9 @@
 ---
-title: 11ty Boilerplate
+title: Over the Moon
 js:
-fontAwesomeKitID: 2229cc8bf4
+fontAwesomeKitID: f35bf32dad
 googleFontsURL: <style>@import url('https://fonts.googleapis.com/css2?family=Patua+One&family=Poppins&display=swap');</style>
-extraNav:
-  -
-    key: CMS Admin
-    url: 'admin'
-wip: true
+wip: false
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -19,17 +15,19 @@ wip: true
         {% endif %}
         <meta http-equiv="x-ua-compatible" content="ie=edge"/>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover"/>
-        <link rel="stylesheet" href="/css/style.css?v={% version %}"/>
+        <link rel="stylesheet" href="/css/style.css"/>
         <link rel="shortcut icon" href="/assets/favicon.ico"/>
 
         <script src="https://kit.fontawesome.com/{{ fontAwesomeKitID }}.js" crossorigin="anonymous"></script>
+        <script defer src="https://unpkg.com/@alpinejs/collapse@3.x.x/dist/cdn.min.js"></script>
         <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
-        <script src="/common-js/bundle.js?v={% version %}"></script>
+        <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+        <script src="/common-js/bundle.js"></script>
         <script src="/usefulFuncs.js"></script>
         <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
         {% if js %}
-            <script src="/{{ js }}?v={% version %}"></script>
+            <script src="/{{ js }}"></script>
         {% endif %}
 
         {{ googleFontsURL | safe }}
@@ -39,6 +37,13 @@ wip: true
         {% if wip %}
             <div class="overflow-hidden absolute transform -rotate-45 bg-gray-300 text-gray-600 top-9 z-0 left-12 text-sm w-56 -translate-x-1/2 p-x text-center origin-center" style="z-index: -10;">Work in Progress</div>
         {% endif %}
+
+        <div id="particles-js" class="fixed top-0 left-0 w-full h-full" style="z-index: -100;"></div>
+        <script>
+            particlesJS.load('particles-js', '/assets/particlesjs.json', function () {
+                // console.log('callback - particles.js config loaded');
+            });
+        </script>
 
         {% block content %}
             {{ content | safe }}

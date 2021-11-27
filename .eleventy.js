@@ -20,15 +20,8 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy({ 'src/_data/*.json': 'data' });
     eleventyConfig.addPassthroughCopy('assets/uploads/*.*');
     eleventyConfig.addPassthroughCopy('admin');
-    eleventyConfig.addPassthroughCopy('posts');
-
-    // This adds a variable that can be used in the template. In this case, we use build time to identify the current version of the site
-    eleventyConfig.addShortcode('version', function () {
-        return now;
-    });
-    eleventyConfig.addShortcode('versionDate', function () {
-        return Date(now);
-    });
+    eleventyConfig.addWatchTarget('assets/*.json');
+    eleventyConfig.addPassthroughCopy('assets/*.json');
 
     eleventyConfig.addFilter('log', value => {
         console.log(value);
