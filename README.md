@@ -1,6 +1,6 @@
-# 11ty-boilerplate
+# Over the Moon
 
-My own little 11ty starter project. Originally based off https://css-tricks.com/eleventy-starter-with-tailwind-css-alpine-js/
+Website for events business Over the Moon
 
 To run local dev server, run `ntl dev`
 
@@ -13,3 +13,7 @@ Includes:
 -   HTML and CSS is minified on build, and \_site is deleted
 
 Now with Netlify CMS!
+
+## Style/Branding Notes
+
+Colour scheme: https://coolors.co/ff4da6-00dbd5-248d9a-0b435e-020d12
