@@ -11,3 +11,31 @@ eleventyNavigation:
     <p>Therefore,  it is with great pleasure that I announce my Pop-up Event Company, "Over the Moon." Because in the end, we don't have to be alone. Now, more than ever, we need each other. So let's come together for more than a good time. Let's have an Over the Moon experience!</p>
     <p>Over the Moon brings people together for shared interests such as dancing, comedy, business networking, mystery murder dinner theatre, drag shows, & more! You can always expect a collaborative effort with local venues, artists, performers with tasty food, fun adult beverages & delicious Mocktails. Each event will have part of all the proceeds donated to an organization I am passionate about. All good times for a good cause.</p>
 </div>
+
+<div class="">
+    <h1>Upcoming Events</h1>
+    <div class="flex flex-col gap-10">
+        {% for event in collections.events %}
+            <div class="flex gap-5 p-5 bg-darkHighlight bg-opacity-10 rounded-xl">
+                <div class="w-64 h-64 flex-shrink-0 ">
+                    <img class="h-full w-full object-cover rounded-xl" src="{{ event.data.featuredImage }}"/>
+                </div>
+                <div class="flex flex-col items-start gap-5">
+                    <h2>
+                        {{ event.data.title }}
+                    </h2>
+                    <div class="">{{ event.data.description }}</div>
+                    <div class="flex gap-3">
+                        <div class="font-extrabold">When:</div>
+                        <div class="">{{ event.data.datetime }}</div>
+                    </div>
+                    <div class="flex gap-3">
+                        <div class="font-extrabold">Where:</div>
+                        <div class="">{{ event.data.location }}</div>
+                    </div>
+                    <a class="btn" href="{{ event.data.booking }}" target="_blank"> Book Now </a>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</div>

@@ -8,15 +8,18 @@ media_folder: '_site/assets/uploads'
 public_folder: '/assets/uploads'
 
 collections:
-    - name: 'posts'
-      label: 'Posts'
-      folder: 'src/posts'
+    - name: 'events'
+      label: 'Events'
+      folder: 'src/events'
       slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+      editor:
+          preview: false
       create: true
       fields:
-          - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
+          # - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'event' }
           - { label: 'Title', name: 'title', widget: 'string' }
-          - { label: 'Description', name: 'description', widget: 'string' }
-          - { label: 'Date', name: 'date', widget: 'date', default: '' } # Setting default to "" means you have the option to not enter a value at all?
-          - { label: 'Post Body', name: 'body', widget: 'markdown' }
+          - { label: 'Description', name: 'description', widget: 'markdown' }
+          - { label: 'Date & Time', name: 'datetime', widget: 'datetime' }
+          - { label: 'Location', name: 'location', widget: 'string' }
+          - { label: 'Booking Link', name: 'booking', widget: 'string' }
           - { label: 'Featured Image', name: 'featuredImage', widget: 'image' }
