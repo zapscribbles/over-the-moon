@@ -13,12 +13,24 @@ eleventyNavigation:
 </div>
 
 <div class="">
-    <h1>Upcoming Events</h1>
+    <h1 class="mt-20 mb-10">Upcoming Events</h1>
     <div class="flex flex-col gap-10">
         {% for event in collections.events %}
-            <div class="flex gap-5 p-5 bg-darkHighlight bg-opacity-10 rounded-xl">
-                <div class="w-64 h-64 flex-shrink-0 ">
-                    <img class="h-full w-full object-cover rounded-xl" src="{{ event.data.featuredImage }}"/>
+            <div class="flex gap-5 p-5 bg-darkHighlight bg-opacity-10 rounded-xl" x-data="timer(new Date('{{ event.data.datetime }}'))">
+                <div class="flex flex-col gap-5">
+                    <div class="text-2xl text-center text-light">
+                        <span>
+                            <span x-text="time().days"></span> days,
+                            </span>
+                        <span>
+                            <span x-text="time().hours"></span> hr,</span>
+                        <span>
+                            <span x-text="time().minutes"></span> min</span>
+                        {# <span><span x-text="time().seconds"></span> sec</span> #}
+                    </div>
+                    <div class="w-64 h-64 flex-shrink-0 ">
+                        <img class="h-full w-full object-cover rounded-xl" src="{{ event.data.featuredImage }}"/>
+                    </div>
                 </div>
                 <div class="flex flex-col items-start gap-5">
                     <h2>
@@ -27,7 +39,7 @@ eleventyNavigation:
                     <div class="">{{ event.data.description }}</div>
                     <div class="flex gap-3">
                         <div class="font-extrabold">When:</div>
-                        <div class="">{{ event.data.datetime }}</div>
+                        <div class="" x-text="expiry.toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric' })"></div>
                     </div>
                     <div class="flex gap-3">
                         <div class="font-extrabold">Where:</div>
@@ -39,3 +51,66 @@ eleventyNavigation:
         {% endfor %}
     </div>
 </div>
+
+<script>
+    function timer(expiry) {
+        return {
+            expiry: expiry,
+            remaining: null,
+            init() {
+                this.setRemaining()
+                setInterval(() => {
+                    this.setRemaining();
+                }, 1000);
+            },
+            setRemaining() {
+                const diff = this.expiry - new Date().getTime();
+                this.remaining = parseInt(diff / 1000);
+            },
+            days() {
+                return {
+                    value: this.remaining / 86400,
+                    remaining: this.remaining % 86400
+                };
+            },
+            hours() {
+                return {
+                    value: this
+                        .days()
+                        .remaining / 3600,
+                    remaining: this
+                        .days()
+                        .remaining % 3600
+                };
+            },
+            minutes() {
+                return {
+                    value: this
+                        .hours()
+                        .remaining / 60,
+                    remaining: this
+                        .hours()
+                        .remaining % 60
+                };
+            },
+            seconds() {
+                return {
+                    value: this
+                        .minutes()
+                        .remaining
+                };
+            },
+            format(value) {
+                return ("0" + parseInt(value)).slice(-2)
+            },
+            time() {
+                return {
+                    days: this.format(this.days().value),
+                    hours: this.format(this.hours().value),
+                    minutes: this.format(this.minutes().value),
+                    seconds: this.format(this.seconds().value)
+                }
+            }
+        }
+    }
+</script>
