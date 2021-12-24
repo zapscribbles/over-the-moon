@@ -23,3 +23,14 @@ collections:
           - { label: 'Location', name: 'location', widget: 'string' }
           - { label: 'Booking Link', name: 'booking', widget: 'string' }
           - { label: 'Featured Image', name: 'featuredImage', widget: 'image' }
+    - name: 'sitewide'
+      label: 'Sitewide'
+      editor:
+          preview: false
+      create: false
+      files:
+          - label: 'Intro'
+            name: 'intro'
+            file: 'src/_data/intro.json'
+            fields:
+                - { label: 'Intro text', name: 'text', widget: 'markdown' }

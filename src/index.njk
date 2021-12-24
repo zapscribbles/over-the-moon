@@ -6,17 +6,15 @@ eleventyNavigation:
   key: Home
 ---
 
-<div class="max-w-5xl m-auto">
-    <p>The moon understands what it means to be human. Uncertain...often alone...and cratered by imperfections. It is constantly changing just like we are.  But there is one thing that remains the same...it is always shining bright above, illuminating our dark nights.</p>
-    <p>Therefore,  it is with great pleasure that I announce my Pop-up Event Company, "Over the Moon." Because in the end, we don't have to be alone. Now, more than ever, we need each other. So let's come together for more than a good time. Let's have an Over the Moon experience!</p>
-    <p>Over the Moon brings people together for shared interests such as dancing, comedy, business networking, mystery murder dinner theatre, drag shows, & more! You can always expect a collaborative effort with local venues, artists, performers with tasty food, fun adult beverages & delicious Mocktails. Each event will have part of all the proceeds donated to an organization I am passionate about. All good times for a good cause.</p>
+<div class="max-w-5xl m-auto text-center md:text-left">
+    {{ intro.text | nl2br | safe }}
 </div>
 
 <div class="">
-    <h1 class="mt-20 mb-10">Upcoming Events</h1>
+    <h1 class="mt-20 mb-10 text-center md:text-left">Upcoming Events</h1>
     <div class="flex flex-col gap-10">
         {% for event in collections.events %}
-            <div class="flex gap-5 p-5 bg-darkHighlight bg-opacity-10 rounded-xl" x-data="timer(new Date('{{ event.data.datetime }}'))">
+            <div class="flex flex-col md:flex-row items-center md:items-start gap-5 p-5 bg-darkHighlight bg-opacity-10 rounded-xl" x-data="timer(new Date('{{ event.data.datetime }}'))">
                 <div class="flex flex-col gap-5">
                     <div class="text-2xl text-center text-light">
                         <span>
@@ -32,11 +30,11 @@ eleventyNavigation:
                         <img class="h-full w-full object-cover rounded-xl" src="{{ event.data.featuredImage }}"/>
                     </div>
                 </div>
-                <div class="flex flex-col items-start gap-5">
+                <div class="flex flex-col items-center md:items-start gap-5">
                     <h2>
                         {{ event.data.title }}
                     </h2>
-                    <div class="">{{ event.data.description }}</div>
+                    <div class="text-center md:text-left">{{ event.data.description }}</div>
                     <div class="flex gap-3">
                         <div class="font-extrabold">When:</div>
                         <div class="" x-text="expiry.toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric' })"></div>
