@@ -1,9 +1,6 @@
 ---
 title: OutMaine Rainbow Ball Benefit Popup
 description: >-
-  <!--StartFragment-->
-
-
   Hey, all! Our Maine LGBTQ+ Youth need our help!  
 
 
@@ -55,10 +52,7 @@ description: >-
   I will personally make sure your donations are received!  PLEASE RSVP BY 4.12.22 LATEST. DM me for more information/questions! OR call/text @ 207.344.5032.
 
 
-  Thanks so much!!! I hope to see some of you there!  
-
-
-  <!--EndFragment-->
+  Thanks so much!!! I hope to see some of you there!
 datetime: 2022-04-02T00:54:48.846Z
 location: Portland, ME
 booking: https://fb.me/e/3gSrPukX8
