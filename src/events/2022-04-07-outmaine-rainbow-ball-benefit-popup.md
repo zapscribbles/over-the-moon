@@ -46,7 +46,7 @@ description: >-
   *\-Shoes in good condition.*
 
 
-  *(Monetary Donations are also being accepted. Please visit OutMaine's page for more info.)*
+  *(Monetary donations are also being accepted. Please visit OutMaine's page for more info.)*
 
 
   *I will personally make sure your donations are received!*  
@@ -56,8 +56,8 @@ description: >-
 
 
   *Thanks so much!!! I hope to see some of you there!*
-datetime: 2022-04-02T00:54:48.846Z
-location: Portland, ME
+datetime: 2022-04-14T21:00:00.000Z
+location: Rising Tide | Portland, ME
 booking: https://fb.me/e/3gSrPukX8
 featuredImage: /assets/uploads/outmaine-s-rainbow-ball-1-.png
 ---
