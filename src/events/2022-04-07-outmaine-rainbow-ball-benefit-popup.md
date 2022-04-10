@@ -53,5 +53,6 @@ description: >-
 datetime: 2022-04-14T21:00:00.000Z
 location: Rising Tide | Portland, ME
 booking: https://fb.me/e/3gSrPukX8
+buttontext: RSVP Now
 featuredImage: /assets/uploads/outmaine-s-rainbow-ball-1-.png
 ---
