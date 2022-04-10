@@ -1,5 +1,5 @@
 ---
-title: "OutMaine Rainbow Ball Formal Wear Drive!  "
+title: "OutMaine's Rainbow Ball Formal Wear Drive!  "
 description: >-
   Hey, all! Our Maine LGBTQ+ Youth need our help!  
 
