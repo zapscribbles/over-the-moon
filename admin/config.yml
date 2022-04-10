@@ -22,6 +22,7 @@ collections:
           - { label: 'Date & Time', name: 'datetime', widget: 'datetime' }
           - { label: 'Location', name: 'location', widget: 'string' }
           - { label: 'Booking Link', name: 'booking', widget: 'string' }
+          - { label: 'Button Text', name: 'buttontext', widget: 'string', default: 'Book Now' }
           - { label: 'Featured Image', name: 'featuredImage', widget: 'image' }
     - name: 'sitewide'
       label: 'Sitewide'

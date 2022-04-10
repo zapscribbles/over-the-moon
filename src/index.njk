@@ -43,7 +43,9 @@ eleventyNavigation:
                         <div class="font-extrabold">Where:</div>
                         <div class="">{{ event.data.location }}</div>
                     </div>
-                    <a class="btn" href="{{ event.data.booking }}" target="_blank"> Book Now </a>
+                    <a class="btn" href="{{ event.data.booking }}" target="_blank">
+                        {{ event.data.buttontext }}
+                    </a>
                 </div>
             </div>
         {% endfor %}
