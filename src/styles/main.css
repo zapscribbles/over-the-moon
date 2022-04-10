@@ -43,6 +43,10 @@ p {
     @apply my-10 bg-darkBG;
 }
 
+.md-block p {
+    @apply my-5 bg-transparent;
+}
+
 :focus {
     outline: none !important;
 }

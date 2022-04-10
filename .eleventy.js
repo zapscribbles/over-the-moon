@@ -1,18 +1,24 @@
 const htmlmin = require('html-minifier');
 const eleventyNavigationPlugin = require('@11ty/eleventy-navigation');
+const { EleventyRenderPlugin } = require('@11ty/eleventy');
 
 const now = String(Date.now());
+
+let markdown = require('markdown-it')({
+    html: true,
+});
 
 module.exports = function (eleventyConfig) {
     eleventyConfig.setUseGitIgnore(false);
 
     // Add plugins
     eleventyConfig.addPlugin(eleventyNavigationPlugin);
+    eleventyConfig.addPlugin(EleventyRenderPlugin);
 
     // Setup files
     eleventyConfig.addWatchTarget('./_tmp/style.css');
     eleventyConfig.addPassthroughCopy({ './_tmp/style.css': './css/style.css' });
-    eleventyConfig.addPassthroughCopy('src/common-js/*.js');
+    // eleventyConfig.addPassthroughCopy('src/common-js/*.js');
     eleventyConfig.addPassthroughCopy('src/**/*.js');
     eleventyConfig.addPassthroughCopy('assets/*.png');
     eleventyConfig.addPassthroughCopy('assets/*.jpg');
@@ -46,6 +52,11 @@ module.exports = function (eleventyConfig) {
         });
         return output;
     });
+
+    eleventyConfig.addNunjucksShortcode(
+        'markdown',
+        content => `<div class="md-block">${markdown.render(content)}</div>`,
+    );
 
     // If being deployed (build rather than start), minify everything
     eleventyConfig.addTransform('htmlmin', function (content, outputPath) {

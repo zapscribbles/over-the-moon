@@ -34,7 +34,9 @@ eleventyNavigation:
                     <h2>
                         {{ event.data.title }}
                     </h2>
-                    <div class="text-center md:text-left">{{ event.data.description }}</div>
+                    <div class="text-center md:text-left">
+                        {% markdown event.data.description %}
+                    </div>
                     <div class="flex gap-3">
                         <div class="font-extrabold">When:</div>
                         <div class="" x-text="expiry.toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric' })"></div>
