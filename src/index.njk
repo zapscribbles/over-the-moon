@@ -7,7 +7,7 @@ eleventyNavigation:
 ---
 
 <div class="max-w-5xl m-auto text-center md:text-left">
-    {{ intro.text | nl2br | safe }}
+    {% markdown intro.text %}
 </div>
 
 <div class="">
