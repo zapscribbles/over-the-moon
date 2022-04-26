@@ -7,13 +7,13 @@ description: >-
   Introducing the OTM LGBTQ+ Book Club!
 
 
-  This is a very low key reading club where I'll pick a book/theme for the month and whoever wants to join in, please do so. Then, I'll set it a date and time for us all meetup at a local brewery or coffee shop and we'll all chat about the book and drink some tasty beverages. 
+  This is a very low-key reading club where I'll pick a book/theme for the month and whoever wants to join in, please do so. Then, I'll set a date and time for us all to meet up at a local brewery or coffee shop and we'll all chat about the book and drink some tasty beverages. 
 
 
   Sounds epic, eh? The first meeting will be early June (just in time for PRIDE MONTH).  
 
 
-  Details to follow. (And if there are non-locals, I'll plan a Zoom call it there is enough interest) And feel free to give me book suggestions.
+  Details to follow. (And if there are non-locals, I'll plan a Zoom call if there is enough interest) And feel free to give me book suggestions.
 
 
   Sign up here:   <!--StartFragment-->
