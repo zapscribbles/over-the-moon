@@ -31,7 +31,7 @@ description: >-
 
 
   Carpe diem & Let's GO!
-datetime: 2022-04-26T10:59:22.586Z
+datetime: 2022-06-01T23:00:00.000Z
 location: TBD
 booking: https://tbanks335898.typeform.com/to/twg2kURZ
 buttontext: Sign up here!
