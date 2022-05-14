@@ -30,21 +30,21 @@ eleventyNavigation:
                         <img class="h-full w-full object-cover rounded-xl" src="{{ event.data.featuredImage }}"/>
                     </div>
                 </div>
-                <div class="flex flex-col items-center md:items-start gap-5">
-                    <h2>
+                <div class="flex flex-col items-center md:items-start gap-5" style="word-break: break-word">
+                    <h2 class="text-center md:text-left">
                         {{ event.data.title }}
                     </h2>
                     <div class="text-center md:text-left">
                         {% markdown event.data.description %}
                     </div>
-                    <div class="flex gap-3">
+                    {# <div class="flex flex-col md:flex-row gap-3">
                         <div class="font-extrabold">When:</div>
                         <div class="" x-text="expiry.toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric' })"></div>
                     </div>
-                    <div class="flex gap-3">
+                    <div class="flex flex-col md:flex-row gap-3">
                         <div class="font-extrabold">Where:</div>
                         <div class="">{{ event.data.location }}</div>
-                    </div>
+                    </div> #}
                     <a class="btn" href="{{ event.data.booking }}" target="_blank">
                         {{ event.data.buttontext }}
                     </a>
