@@ -16,7 +16,7 @@ description: >-
   If you have ever seen the movie "Carol" with Cate Blanchett this is the original book it's based on. 
 
 
-  Exceprt of Plot summer from Goodreads:
+  Excerpt of Plot summer from Goodreads:
 
 
   *Arguably Patricia Highsmith's finest, The Price of Salt is the story of Therese Belivet, a stage designer trapped in a department-store day job, whose salvation arrives one day in the form of Carol Aird, an alluring suburban housewife in the throes of a divorce.* 
