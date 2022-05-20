@@ -66,7 +66,7 @@ description: >-
 
   Carpe diem & Let's GO!
 datetime: 2022-06-08T21:00:00.000Z
-location: TBD
+location: "Foundation Brewery Portland, ME "
 booking: https://tbanks335898.typeform.com/to/twg2kURZ
 buttontext: Sign up here!
 featuredImage: /assets/uploads/copy-of-otm-lgbtq-book-club-1-typeform-1-.png
