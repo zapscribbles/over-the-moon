@@ -7,7 +7,7 @@ description: >-
   Introducing the OTM LGBTQ+ Book Club! 
 
 
-  This is a very low-key reading club where I'll pick a book/theme for the month and whoever wants to join in, please do so. Then, I'll set a date and time for us all to meet up at a local brewery or coffee shop and we'll all chat about the book and drink some tasty beverages. 
+  This is a very low-key reading club where I'll pick a book/theme for the month and whoever wants to join in, please do so. Then, I'll set a date and time for us all to meet up at a local brewery or coffee shop and we'll all chat about the book and drink some tasty beverages. Sometimes, we'll even have fancier food! OOh! haha 
 
 
   The first book I have chosen for us to read is The Price of Salt by Patricia Highsmith
@@ -31,7 +31,10 @@ description: >-
   \-The Portland public library has a copy of it. 
 
 
-  \-Longfellow Books in Portland sells it:
+  \-Longfellow Books in Portland sells it: https://www.longfellowbooks.com/book/9780486800295
+
+
+  \-Audible:  https://www.audible.com/pd/Carol-The-Price-of-Salt-Audiobook/B012HQ6P2G 
 
 
   \-If you are not totally against buying from amazon, they definitely have plenty of copies.
@@ -40,7 +43,7 @@ description: >-
   I am trying to put together a list of local book shops that are either queer owned or queer friendly and it's kind of astonishing that there don't really seem to be any of them but stay tuned on that! If anyone has any recommendations, I am all ears and eyes. 
 
 
-  For those of you who are planning on coming, please RSVP no later than June 7th if at all possible but you will definitely not be turned away if you just show up. I just want to be courteous to foundation brewery is all. And please don't feel pressured to drink. I just love the energy of this brewery (plus it's Queer friendly) and I always just have a great time.
+  For those of you who are planning on coming, please RSVP no later than June 7th if at all possible but you will definitely not be turned away if you just show up. I just want to be courteous to foundation brewery is all. And please don't feel pressured to drink. I just love the energy of this brewery (plus it's Queer friendly) and I always just have a great time.  
 
 
   Where: Foundation Brewery
@@ -62,6 +65,12 @@ description: >-
 
 
   [https://tbanks335898.typeform.com/to/twg2kURZ](https://tbanks335898.typeform.com/to/twg2kURZ?fbclid=IwAR1aVfCFBrbuJYYzgOKmQTCB_aEMaaN7boCjJZzX3odDkxm8AyPbihedYzo)
+
+
+  FINAL RSVP AND FOOD/DRINK SURVEY: 
+
+
+  <https://forms.gle/B8xbyuR9fYSsmzrF6>    
 
 
   Carpe diem & Let's GO!
