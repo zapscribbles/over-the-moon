@@ -10,73 +10,48 @@ description: >-
   This is a very low-key reading club where I'll pick a book/theme for the month and whoever wants to join in, please do so. Then, I'll set a date and time for us all to meet up at a local brewery or coffee shop and we'll all chat about the book and drink some tasty beverages. Sometimes, we'll even have fancier food! OOh! haha 
 
 
-  The first book I have chosen for us to read is The Price of Salt by Patricia Highsmith
+  <!--StartFragment-->
 
 
-  If you have ever seen the movie "Carol" with Cate Blanchett this is the original book it's based on. 
+  **I am so excited to announce the OTM LGBTQ+ Book Club Meeting: Round 2!**  
 
 
-  Excerpt of Plot summer from Goodreads:
+  Here's the scoop:
 
 
-  *Arguably Patricia Highsmith's finest, The Price of Salt is the story of Therese Belivet, a stage designer trapped in a department-store day job, whose salvation arrives one day in the form of Carol Aird, an alluring suburban housewife in the throes of a divorce.* 
+  Book: *Moon in Full* by Marpheen Chann
 
 
-  Sooo if you're curious about how they end up, you'll just have to read the book! haha 
+  Where: Coffee by Design @ 1 Diamond Street Portland Me
 
 
-  Where to find it: 
+  When: 7.30.22 2pm-4pm
 
 
-  \-The Portland public library has a copy of it. 
+  BONUS: Marpheen, himself, will be there! In fact, he has stated that he would love to answer any questions any of y'all may have after reading his book.  
 
 
-  \-Longfellow Books in Portland sells it: https://www.longfellowbooks.com/book/9780486800295
+  Coffee by Design is selling Marpheen’s book at the Diamond Street location but it is also available at all of our amazing local bookstores like Print, Sherman’s, and Longfellow Books!
 
 
-  \-Audible:  https://www.audible.com/pd/Carol-The-Price-of-Salt-Audiobook/B012HQ6P2G 
+  Marpheen is a local Maine resident, gay, and a first-generation Asian American born in California to a Cambodian refugee family and later adopted by an evangelical, white working-class family in Maine, Marpheen uses a mix of humor and storytelling to help people view topics such as racism, xenophobia, and homophobia through an intersectional lens.-taken directly from his website. You can read more about him on his website: here: <https://www.marpheenchann.com/>
 
 
-  \-If you are not totally against buying from amazon, they definitely have plenty of copies.
+  I am incredibly excited for this one and hope to see as many of you there as possible because this is not one you'll want to miss! Please RSVP by July 25th if at all possible.  
 
 
-  I am trying to put together a list of local book shops that are either queer owned or queer friendly and it's kind of astonishing that there don't really seem to be any of them but stay tuned on that! If anyone has any recommendations, I am all ears and eyes. 
 
 
-  For those of you who are planning on coming, please RSVP no later than June 7th if at all possible but you will definitely not be turned away if you just show up. I just want to be courteous to foundation brewery is all. And please don't feel pressured to drink. I just love the energy of this brewery (plus it's Queer friendly) and I always just have a great time.  
+  EVENT RSVP LINK: <https://forms.gle/KUGDvu5fMTi8nudq9>
 
 
-  Where: Foundation Brewery
-
-
-  1 Industrial Way #7
-
-
-  Portland, ME 04103
-
-
-  When: June 8th from 5-7 PM (last call 6:45)
-
-
-  Book: The Price of Salt by Patricia Highsmith
-
-
-  All are welcome. Sign up here:
-
-
-  [https://tbanks335898.typeform.com/to/twg2kURZ](https://tbanks335898.typeform.com/to/twg2kURZ?fbclid=IwAR1aVfCFBrbuJYYzgOKmQTCB_aEMaaN7boCjJZzX3odDkxm8AyPbihedYzo)
-
-
-  FINAL RSVP AND FOOD/DRINK SURVEY: 
-
-
-  <https://forms.gle/B8xbyuR9fYSsmzrF6>    
+  <!--EndFragment-->
 
 
   Carpe diem & Let's GO!
-datetime: 2022-06-08T21:00:00.000Z
-location: "Foundation Brewery Portland, ME "
-booking: https://tbanks335898.typeform.com/to/twg2kURZ
+datetime: 2022-07-30T18:00:00.000Z
+location: "Coffee by Design Portland, ME "
+booking: <https://forms.gle/KUGDvu5fMTi8nudq9>
 buttontext: Sign up here!
-featuredImage: /assets/uploads/copy-of-otm-lgbtq-book-club-1-typeform-1-.png
+featuredImage: /assets/uploads/otm-lgbtq-book-club-logo.png
 ---
