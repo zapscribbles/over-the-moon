@@ -16,34 +16,6 @@ description: >-
   S﻿tay tuned for the next meeting!  (not September 21st---website is under construction)
 
 
-  **I am so excited to announce the OTM LGBTQ+ Book Club Meeting: Round 2!**  
-
-
-  Here's the scoop:
-
-
-  Book: *Moon in Full* by Marpheen Chann
-
-
-  Where: Coffee by Design @ 1 Diamond Street Portland Me
-
-
-  When: 7.30.22 2pm-4pm
-
-
-  BONUS: Marpheen, himself, will be there! In fact, he has stated that he would love to answer any questions any of y'all may have after reading his book.  
-
-
-  Coffee by Design is selling Marpheen’s book at the Diamond Street location but it is also available at all of our amazing local bookstores like Print, Sherman’s, and Longfellow Books!
-
-
-  Marpheen is a local Maine resident, gay, and a first-generation Asian American born in California to a Cambodian refugee family and later adopted by an evangelical, white working-class family in Maine, Marpheen uses a mix of humor and storytelling to help people view topics such as racism, xenophobia, and homophobia through an intersectional lens.-taken directly from his website. You can read more about him on his website: here: <https://www.marpheenchann.com/>
-
-
-  I am incredibly excited for this one and hope to see as many of you there as possible because this is not one you'll want to miss! Please RSVP by July 25th if at all possible.  
-
-
-  EVENT RSVP LINK: <https://forms.gle/KUGDvu5fMTi8nudq9>
 
 
   <!--EndFragment-->
